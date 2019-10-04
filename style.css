@@ -1,0 +1,98 @@
+/*
+0. fonts
+*/
+
+@font-face {
+    font-family: 'Yandex Sans Display-Light';
+    src: url(/fonts/Yandex Sans Display-Light.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*
+1. Normalize
+*/
+
+body {
+    margin: 1%;
+    background-color: #fff;
+    color: #333;
+    font-family: "Yandex Sans Display-Light";
+}
+
+h1 {
+    font-family: "Yandex Sans Display-Light";
+    font-size: 10em;
+}
+
+h3 {
+    font-size: 6em;
+}
+
+p,
+li {
+    font-size: 2.3em;
+    font-weight: bold;
+}
+
+/*
+2. Links
+*/
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #c33
+}
+
+/*
+3. Tables
+*/
+
+ul {
+    display: inline;
+    padding-inline-start: 0px;
+}
+
+th {
+    vertical-align: top;
+}
+
+#1col {
+    width: 57%;
+}
+
+.maintable {
+    text-align: left;
+}
+
+.floatleft {
+    float: left;
+}
+
+/*
+4. Custom
+*/
+
+.main {
+    margin: 6%;
+    height: 70%;
+}
+
+.firstchar {
+    color: #c33;
+}
+
+#bottomar {
+    margin-bottom: 10%;
+}
+/*
+5. Images
+*/
+#footerimg {
+    height: auto;
+}
+
