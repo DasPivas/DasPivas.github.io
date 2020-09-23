@@ -53,7 +53,7 @@ p {
 }
 
 .header {
-    background-image: url('/images/background.jpg');
+    background-image: url('/images/table-3997521_1280.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -61,7 +61,7 @@ p {
 }
 
 .overlay {
-    position: absolute;
+/*    position: absolute;*/
     min-height: 100%;
     min-width: 100%;
     left: 0;
@@ -156,19 +156,26 @@ p {
 }
 
 .carousel-inner{
-    width: 90%;
-    margin: 0 5%;
+    width: 80%;
+    margin: 0 10%;
     border-radius: 20px;
 }
 .carousel-control-next{
     background: linear-gradient(270deg, #009E8E, transparent);
     border: none;
     border-radius: 20px;
+    margin: 10% 0;
+    height: 60%;
 }
 .carousel-control-prev{
     background: linear-gradient(90deg, #009E8E, transparent);
     border: none;
     border-radius: 20px;
+    margin: 10% 0;
+    height: 60%;
+}
+.web h5 {
+    color: #3AC1EF;
 }
 
 #contact {
