@@ -2,338 +2,324 @@
 <html lang="ru">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Curriculum Vitae</title>
-
-    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="/images/favicon.ico">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Link to your css file -->
-    <link rel="stylesheet" href="/css/main.css" type="text/css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-
+    <title>ИДПО Главная</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="author" content="Институт дополнительного образования">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Институт дополнительного образования">
+    <meta name="keywords" content="Институт дополнительного образования">
+    <meta name="author" content="usfeu">
+    <meta property="og:title" content="Институт дополнительного образования">
+    <meta property="og:site_name" content="Институт дополнительного образования">
+    <!--    <meta property="og:url" content="">-->
+    <meta property="og:description" content="Институт дополнительного образования">
+    <meta property="og:image" content="./images/logo.png">
+    <link rel="shortcut icon" href="./images/favicon/favicon.png" type="image/jpg">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top " id="menu">
-        <a class="navbar-brand" href="#">Misha Design</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav mr-4">
+    <header class="header main-header" id="top">
+        <nav class="navbar navbar-expand-md" role="navigation">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="usfeu-logo" class="top-logo">
+                </a>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">О себе</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#education">Образование</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#work">Работы</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#web">Веб</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#contact">Контакты</a>
-                </li>
-            </ul>
-
-        </div>
-    </nav>
-    <header class="header">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="description text-left">
-                <h1>Привет! Добро пожаловать на мое Curriculum Vitae</h1>
-                <p>
-                    Тут я бы хотел расскать о себе, показать свои навыки и подружиться с тобой</p>
-                <a href="#about" class="btn-header"><i class="fas fa-arrow-down"></i></a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" onclick="myFunction(this)">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="navbar-top_li"><a href="#about" class="navbar-top_a a_green closeble">О Нас</a></li>
+                        <li class="dropdown navbar-top_li">
+                            <a href="#" class="dropdown-toggle navbar-top_a a_green " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Направления <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="navbar-top_li"><a href="./profdev/index.html" class="navbar-top_a a_green closeble">Повышение квалификации работиков</a></li>
+                                <li class="navbar-top_li"><a href="../retraining/index.html" class="navbar-top_a a_green closeble">Профессиональная переподготовка</a></li>
+                                <li class="navbar-top_li"><a href="#" class="navbar-top_a a_green closeble">Студентам</a></li>
+                                <li class="navbar-top_li"><a href="https://ucpkrat.ru" class="navbar-top_a a_green closeble">УЦПКРАТ</a></li>
+                                <li class="navbar-top_li"><a href="#" class="navbar-top_a a_green closeble">Профессиональное обучение</a></li>
+                                <li class="navbar-top_li"><a href="http://kafatr.ru/avtoshkola_ugltu" class="navbar-top_a a_green closeble">Автошкола</a></li>
+                            </ul>
+                        </li>
+                        <li class="navbar-top_li"><a href="#contact" class="navbar-top_a a_green">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container header-container">
+            <div class="row">
+                <div class="col-md-10 col-lg-12">
+                    <h1 class="header__h1">Институт Дополнительного профессионального образования</h1>
+                </div>
+                <div class="col-md-12">
+                    <h3 class="header__h3">
+                        Измени свое будущее уже сегодня!
+                    </h3>
+                </div>
+                <div class="col-md-12">
+                    <a href="#consultation" class="consultation__a">Получить консультацию</a>
+                </div>
             </div>
         </div>
+
     </header>
-
-    <section class="about" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2 class="section-title">О себе</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img align="center" src="images/myphoto.jpg" class="img-fluid">
-                    <span class="">Junior developer</span>
-                </div>
-                <div class="col-lg-8 col-md-8 col-sm-12 desc">
-
-                    <h4>
-                        <font color="#3AC1EF">Прядун М. А.</font>
-                    </h4>
-                    <p>
-                        Я молодой специалист web-разработки, который создает создаает красивые и удобные сайты,
-                        адаптивые интерфейсы и милые анимации. <br>
-                        Хорошо разбираюсь в джентельмеском наборе front-а HTML, CSS, JS, PHP, Phyton, jquery, bootstrap, WordPress. Имею опыт разработки и доработки сайтов, используя данные технологии. <br>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="education" id="education">
-        <div class="overlay"></div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2 class="section-title">Образование</h2>
-                </div>
-            </div>
-            <div class="row row-castom">
-                <div class="col-sm-1">
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-award" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M9.669.864L8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193l-1.51-.229L8 1.126l-1.355.702-1.51.229-.684 1.365-1.086 1.072L3.614 6l-.25 1.506 1.087 1.072.684 1.365 1.51.229L8 10.874l1.356-.702 1.509-.229.684-1.365 1.086-1.072L12.387 6l.248-1.506-1.086-1.072-.684-1.365z" />
-                        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
-                    </svg>
-                </div>
-                <div class="col-sm-3">
-                    <p class="edu-year">2017-2021</p>
-                </div>
-                <div class="col-sm-8">
-                    <p class="edu-main">Уральский Федереальный университет</p>
-                    <p class="edu-spec">Математическое обеспечение и администрирование информационных систем</p>
-                </div>
-            </div>
-            <div class="row row-castom fix-border">
-                <div class="col-sm-1">
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-award-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8 0l1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
-                        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
-                    </svg>
-                </div>
-                <div class="col-sm-3">
-                    <p class="edu-year">2014-2017</p>
-                </div>
-                <div class="col-sm-8">
-                    <p class="edu-main">Специализированый учебно-научный центр УрФУ</p>
-                    <p class="edu-spec">Математико-экономический класс</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <h3 class="section-sub-title section-title">Доп. образование</h3>
-                </div>
-            </div>
-            <div class="row row-castom">
-                <div class="col-sm-1">
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-award" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M9.669.864L8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193l-1.51-.229L8 1.126l-1.355.702-1.51.229-.684 1.365-1.086 1.072L3.614 6l-.25 1.506 1.087 1.072.684 1.365 1.51.229L8 10.874l1.356-.702 1.509-.229.684-1.365 1.086-1.072L12.387 6l.248-1.506-1.086-1.072-.684-1.365z" />
-                        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
-                    </svg>
-                </div>
-                <div class="col-sm-3">
-                    <p class="edu-year">2020</p>
-                </div>
-                <div class="col-sm-8">
-                    <p class="edu-main">Разработка интерфейсов: вёрстка и JavaScript (coursera.org)</p>
-                    <p class="edu-spec">Курс разработан преподавателями МФТИ и разработчиками Yandex</p>
-                </div>
-            </div>
-            <div class="row row-castom">
-                <div class="col-sm-1">
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-award-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8 0l1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
-                        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
-                    </svg>
-                </div>
-                <div class="col-sm-3">
-                    <p class="edu-year">2020</p>
-                </div>
-                <div class="col-sm-8">
-                    <p class="edu-main">Веб-программирование (openedu.ru)</p>
-                    <p class="edu-spec">Курс разработан преподавателями ИТМО</p>
-                </div>
-            </div>
-            <div class="row row-castom">
-                <div class="col-sm-1">
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-award-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8 0l1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
-                        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
-                    </svg>
-                </div>
-                <div class="col-sm-3">
-                    <p class="edu-year">2020</p>
-                </div>
-                <div class="col-sm-8">
-                    <p class="edu-main">Основы сервиса Webflow (newshkola.ru)</p>
-                    <p class="edu-spec">Авторский курс от главы компании "Академия Соколова Максима"</p>
-                </div>
-            </div>
-            <div class="row row-castom fix-border">
-                <div class="col-sm-1">
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-award-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8 0l1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
-                        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
-                    </svg>
-                </div>
-                <div class="col-sm-3">
-                    <p class="edu-year">2020</p>
-                </div>
-                <div class="col-sm-8">
-                    <p class="edu-main">Веб-дизайн в Figma (sanya-kvo.ru)</p>
-                    <p class="edu-spec">Основы UI/UX дизайна в авторском курсе опытного дизайнера интерфейсов</p>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="work" id="work">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2 class="section-title">Работы</h2>
-                </div>
-            </div>
-            <div id="mySlider" class="carousel slide" data-ride="carousel">
-                <!--
-		<ol class="carousel-indicators">
-			<li data-target="#mySlider" data-slide-to="0" class="active"></li>
-			<li data-target="#mySlider" data-slide-to="1"></li>
-			<li data-target="#mySlider" data-slide-to="2"></li>
-		</ol>
--->
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="/images/work1.jpg" alt="cheesepack.ru" class="d-block w-100">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/images/work2.jpg" alt="course-openedu" class="d-block w-100">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/images/work3.jpg" alt="course-webflow" class="d-block w-100">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/images/work4.jpg" alt="course-DESIGN" class="d-block w-100">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/images/work5.jpg" alt="aemtk.ru" class="d-block w-100">
+    <main>
+        <section class="benefits">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="section__title">Новая профессиия - Новая вершина!
+                            <br>Новая квалификация - Новый горизонт!
+                        </h2>
                     </div>
                 </div>
-                <a href="#mySlider" class="carousel-control-prev" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a href="#mySlider" class="carousel-control-next" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+                <div class="row">
+                    <div class="col-sm-4 benefit__item">
+                        <img src="images/benefits/benefit1.png" alt="benefit" class="item__img">
+                        <h4 class="h4 item__title">Большой опыт</h4>
+                        <p class="item__description">С 1990 года на рынке образовательных услуг ДПО.</p>
+                    </div>
+                    <div class="col-sm-4 benefit__item">
+                        <img src="images/benefits/benefit2.png" alt="benefit" class="item__img">
+                        <h4 class="h4 item__title">Доступное обучения</h4>
+                        <p class="item__description">Стоимость программ от 350 рублей. </p>
+                    </div>
+                    <div class="col-sm-4 benefit__item">
+                        <img src="images/benefits/benefit3.png" alt="benefit" class="item__img">
+                        <h4 class=" h4 item__title">Дистанционное обучение</h4>
+                        <p class="item__description">Применение технологичных решений: цифровые платформы, смешанное обучение</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section class="structure">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 structure__top">
+                        <p class="structure__p h4">Структура института:</p>
+                        <img src="images/benefits/3treads.png" alt="1to3" class="structure__img desctop">
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <p class="structure__p"><span class="mobile text_green">1. </span>Государственное и муниципальное управление и экономика</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="structure__p"><span class="mobile text_green">2. </span>Промышеленная безопасность и охрана труда</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="structure__p"><span class="mobile text_green">3. </span>Уральский центр повышения квалификации работников автомобильного транспорта</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="section__title">ИДО УГЛТУ</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <ul class="about__ul">
+                            <li class="about__li">
+                                <p class="li__p">Лицензия на право введения деятельности в сфере дополнителього профессионального образовательных от 30 августа 2016 рег №2355 (бессрочный). Выдан Федеральной службой по надзору в сфере образования и науки.</p>
+                            </li>
+                            <li class="about__li">
+                                <p class="li__p">За период с 2011 по 2020 год институтом обучено 51 979 человек по 65 программам</p>
+                            </li>
+                            <li class="about__li">
+                                <p class="li__p">Постоянно развиваем профессиональные компетенции профессорско-преподавательского состава
+                                </p>
+                            </li>
+                            <li class="about__li">
+                                <p class="li__p">Проводим курсы повышения квалификации сотрудников института дополнительного образования для повышения качества реализации предлагаемых услуг</p>
+                            </li>
+                            <li class="about__li">
+                                <p class="li__p">Совершенствуем цифровые компетенции профессорско-преподавательского состава</p>
+                            </li>
+                            <li class="about__li">
+                                <p class="li__p">Развиваем дистанционные технологии системы ДПО</p>
+                            </li>
+                            <li class="about__li">
+                                <p class="li__p">Доступность и простота получения информации
+                                </p>
+                            </li>
+                            <li class="about__li">
+                                <p>Высокое качество обучения.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="slider-gallery">
+                            <div class="slide">
+                                <img src="./images/thanks/Gratitude1.jpg" alt="Благодарственное письмо" class="gallery-img">
+                            </div>
+                            <div class="slide">
+                                <img src="./images/thanks/Gratitude2.jpg" alt="Благодарственное письмо" class="gallery-img">
+                            </div>
+                            <div class="slide">
+                                <img src="./images/thanks/Gratitude3.jpg" alt="Благодарственное письмо" class="gallery-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="select">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="section__title">Просто выбери будующее!</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <article class="select-block">
+                        <div class="select__card">
+                            <img src="images/select/direction1.png" alt="direction" class="select__img">
+                            <h4 class="h4 item__title select__title">Повышение квалификации работиков</h4>
+                            <a href="./profdev/index.html" class="btn_green btn">Перейти</a>
+                        </div>
+                        <div class="select__card">
+                            <img src="images/select/direction2.png" alt="direction" class="select__img">
+                            <h4 class="h4 item__title select__title">Профессиональная переподготовка</h4>
+                            <a href="../retraining/index.html" class="btn_green btn">Перейти</a>
+                        </div>
+                        <div class="select__card">
+                            <img src="images/select/direction3.png" alt="direction" class="select__img">
+                            <h4 class="h4 item__title select__title">Студентам</h4>
+                            <a href="#" class="btn_green btn">Перейти</a>
+                        </div>
+                        <div class="select__card">
+                            <img src="images/select/direction4.png" alt="direction" class="select__img">
+                            <h4 class="h4 item__title select__title">УЦПКРАТ</h4>
+                            <a href="https://ucpkrat.ru" class="btn_green btn">Перейти</a>
+                        </div>
+                        <div class="select__card">
+                            <img src="images/select/direction5.png" alt="direction" class="select__img">
+                            <h4 class="h4 item__title select__title">Профессиональное обучение</h4>
+                            <a href="#" class="btn_green btn">Перейти</a>
+                        </div>
+                        <div class="select__card">
+                            <img src="images/select/direction6.png" alt="direction" class="select__img">
+                            <h4 class="h4 item__title select__title">Автошкола</h4>
+                            <a href="http://kafatr.ru/avtoshkola_ugltu" class="btn_green btn">Перейти</a>
+                        </div>
+                    </article>
 
-    <section class="web" id="web">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2 class="section-title">Веб</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <h5>Почему мне интересен веб?</h5>
+        </section>
+        <section class="consultation" id="consultation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="section__title">Получить консультацию</h2>
+                    </div>
                 </div>
-                <div class="col-sm-8">
-                    <p>
-                        Я как и любой другой человек своременного мира тесно связан со своими гаджетами. Основное удовольствие испольльзования мы получаем от сайтов и сервисов тесно связанных с интернетом, иначе web-технологиями. Это наша неотъемлемая часть жизни. Мне очень хочется развиваться в таком популярном и перспективном направлении. Я бы хотел изучить все технологии, нюансы и билиотеки веба, а на данном курсе мне интересны:
-                    </p>
-                </div>
-                <div class="col-sm-4 right-align xs-center">
-                    <h5>1</h5>
-                </div>
-                <div class="col-sm-8">
-                    <p>
-                        Подробнее разобраться в работе препроцессоров.
-                    </p>
-                </div>
-                <div class="col-sm-4 right-align xs-center">
-                    <h5>2</h5>
-                </div>
-                <div class="col-sm-8">
-                    <p>
-                        Чем отличается хорошая анимация от плохой?
-                    </p>
-                </div>
-                <div class="col-sm-4 right-align xs-center">
-                    <h5>3</h5>
-                </div>
-                <div class="col-sm-8">
-                    <p>
-                        Ассинхронность наботы NodeJS.
-                    </p>
-                </div>
-                <div class="col-sm-4 right-align xs-center">
-                    <h5>4</h5>
-                </div>
-                <div class="col-sm-8">
-                    <p>
-                        Инструменты для быстрой работы front-a.
-                    </p>
-                </div>
+                <form action="" class="form-contact" method="post" class="consultation__form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <lable for="personal-name" class="h4 form__lable">1. ФИО*</lable>
+                            <input type="text" id="personal-name" class="form__input" required placeholder="Иван Иванов">
+                            <lable for="personal-email" class="h4 form__lable">2. Почта*</lable>
+                            <input type="email" id="personal-email" class="form__input" required placeholder="ivan@mail.ru">
+                            <lable for="personal-phone" class="h4 form__lable">3. Телефон</lable>
+                            <input type="tel" id="personal-phone" class="form__input" placeholder="+7(900)100-20-30">
+                        </div>
+                        <div class="col-md-6">
+                            <lable for="personal-phone" class="h4 h4 form__lable">4. Вопрос*</lable>
+                            <textarea type="textarea" id="personal-phone" class="form__input form__textarea" placeholder="Меня интересует..."></textarea>
+                        </div>
+                        <div class="col-sm-12 text_center">
+                            <button type="submit" class="btn_green btn">Отправить</button>
+                        </div>
+                    </div>
+                </form>
             </div>
-        </div>
-    </section>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="section__title">Контакты</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="h4">Адрес</h4>
+                        <address>620100, г. Екатеринбург, Сибирский тракт д. 35, учебный корпус 7, кабинет 313, 314</address>
+                        <h4 class="h4">Директор</h4>
+                        <p>Бондарева Ю.А. <a href="mailto:bondarevayua@m.usfeu.ru" class="a_green">bondarevayua@m.usfeu.ru</a>,
+                            <a href="tel:+73432212136" class="a_green">+7(343)221-21-36(1)</a>
+                        </p>
+                        <h4 class="h4">УКЦ Государственное и муниципальное управление и экономика</h4>
+                        <p>Ковалева Н.А. и Осинцева С.А. <a href="mailto:ukc.gmu@yandex.ru" class="a_green">ukc.gmu@yandex.ru</a>,
+                            <a href="tel:+73432212136" class="a_green">+7(343)221-21-36(2)</a>
+                        </p>
+                        <h4 class="h4">УКЦ промбезопастность и охрана труда</h4>
+                        <p>Швамм Л.Г. <a href="mailto:ukc.gmu@yandex.ru" class="a_green">ukc.gmu@yandex.ru</a>,
+                            <a href="tel:+73432212136" class="a_green">+7(343)221-21-36(4)</a>
+                        </p>
+                        <h4 class="h4">Уральский центр повышения квалификации работников автомобильного транспорта</h4>
+                        <p>Шавнина М.В. <a href="mailto:2546580@mail.ru" class="a_green">2546580@mail.ru</a>,
+                            <a href="tel:+79126378615" class="a_green">+7(912)637-86-15</a>,
+                            <a href="tel:+79122307429" class="a_green">+7(912)230-74-29</a>
+                        </p>
+                    </div>
+                    <div class="col-md-6 contact__map">
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A4b0d6728bdbda6b26370fbd9e182e7d2794b5df5cdfc6ac2526a7b53e0a75d59&amp;source=constructor" width="560" height="400" frameborder="0" class="map"></iframe>
+                    </div>
+                </div>
 
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2 class="section-title">Контакты</h2>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h4 class="h4 footer__title">Навигация</h4>
+                        <a href="#top" class="footer__link">Наверх</a>
+                        <a href="./profdev/index.html" class="footer__link">Повышение квалификации работиков</a>
+                        <a href="../retraining/index.html" class="footer__link">Профессиональная переподготовка</a>
+                        <a href="#" class="footer__link">Студентам</a>
+                        <a href="https://ucpkrat.ru" class="footer__link">УЦПКРАТ</a>
+                        <a href="#" class="footer__link">Профессиональное обучение</a>
+                        <a href="http://kafatr.ru/avtoshkola_ugltu" class="footer__link">Автошкола</a>
+                    </div>
+                    <div class="col-sm-6">
+                        <h4 class="h4 footer__title">Полезные ссылки</h4>
+                        <a href="http://usfeu.ru" class="footer__link">Главная странница университета</a>
+                        <a href="#" class="footer__link">Правовые документы</a>
+                        <a href="#" class="footer__link">Политика конфиденциальности</a>
+                        <a href="#" class="footer__link">Структура организации</a>
+<!--                        <a href="#" class="footer__link"><span class="iconify icon_inst a_green" data-inline="false" data-icon="fa-brands:instagram"></span></a>-->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <address class="footer__link copy_link">&copy;Институт дополнительного профессионального образования УГЛТУ 2021</address>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-6 xs-center">
-                    <p>Написать мне можно сюда</p>
-                </div>
-                <div class="col-sm-6 xs-center">
-                    <a href="https://wa.me/79193949800"><i class="fab fa-whatsapp"></i></a>
-                    <a href="tg://resolve?domain=pryadun69"><i class="fab fa-telegram-plane"></i></a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 xs-center">
-                    <p>Звонить сюда</p>
-                </div>
-                <div class="col-sm-6 xs-center"><a href="tel:+79193949800">+7 (919) 394-98-80</a></div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 xs-center">
-                    <p>Тут принимаю электронные письма</p>
-                </div>
-                <div class="col-sm-6 xs-center"><a href="mailto:misha.pma12@yandex.ru">misha.pma12@yandex.ru</a></div>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 footer-brand xs-center"><i class="far fa-copyright"></i> Misha Design</div>
-                <div class="col-sm-6 right-align xs-center">
-                    <a href="https://vk.com/pryadun"><i class="fab fa-vk"></i></a>
-                    <a href="https://www.instagram.com/pryadun69/"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        </footer>
+
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+    <script src="js/bootstrap.min.js" defer></script>
+    <script src="js/jquery.vide.js" defer></script>
+    <script type="text/javascript" src="slick/slick.min.js" defer></script>
+    <script type="text/javascript" src="js/sliderSett.js" defer></script>
+    <script src="js/customJS.js" defer></script>
+
 </body></html>
