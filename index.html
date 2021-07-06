@@ -2,324 +2,199 @@
 <html lang="ru">
 
 <head>
-    <title>ИДПО Главная</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="author" content="Институт дополнительного образования">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Институт дополнительного образования">
-    <meta name="keywords" content="Институт дополнительного образования">
-    <meta name="author" content="usfeu">
-    <meta property="og:title" content="Институт дополнительного образования">
-    <meta property="og:site_name" content="Институт дополнительного образования">
-    <!--    <meta property="og:url" content="">-->
-    <meta property="og:description" content="Институт дополнительного образования">
-    <meta property="og:image" content="./images/logo.png">
-    <link rel="shortcut icon" href="./images/favicon/favicon.png" type="image/jpg">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="./favicon/favicon.ico" />
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./favicon/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico">
+    <link rel="icon" href="/favicon.ico" />
+    <title>Тестовое ArtSofte</title>
     <link rel="stylesheet" type="text/css" href="slick/slick.css">
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+
 </head>
 
 <body>
-    <header class="header main-header" id="top">
-        <nav class="navbar navbar-expand-md" role="navigation">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="images/logo.png" alt="usfeu-logo" class="top-logo">
-                </a>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./images/logo.png" alt="logo" class="logo__img">
+                <div class="logo__text">
+                    <span class="logo__title">Digital Banking</span><br>
+                    <span class="logo__description">Be Safe Banking</span>
+                </div>
+            </a>
+            <div class="nav-link" id="nav-top">
+                <a href="#" class="navbar__link">Cards</a>
+                <a href="#" class="navbar__link">Service</a>
+                <a href="#" class="navbar__link">Banking</a>
+                <a href="#" class="navbar__link">FAQ</a>
+                <a href="#" class="navbar__link">Contact</a>
 
-                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" onclick="myFunction(this)">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                </button>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="navbar-top_li"><a href="#about" class="navbar-top_a a_green closeble">О Нас</a></li>
-                        <li class="dropdown navbar-top_li">
-                            <a href="#" class="dropdown-toggle navbar-top_a a_green " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Направления <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li class="navbar-top_li"><a href="./profdev/index.html" class="navbar-top_a a_green closeble">Повышение квалификации работиков</a></li>
-                                <li class="navbar-top_li"><a href="../retraining/index.html" class="navbar-top_a a_green closeble">Профессиональная переподготовка</a></li>
-                                <li class="navbar-top_li"><a href="#" class="navbar-top_a a_green closeble">Студентам</a></li>
-                                <li class="navbar-top_li"><a href="https://ucpkrat.ru" class="navbar-top_a a_green closeble">УЦПКРАТ</a></li>
-                                <li class="navbar-top_li"><a href="#" class="navbar-top_a a_green closeble">Профессиональное обучение</a></li>
-                                <li class="navbar-top_li"><a href="http://kafatr.ru/avtoshkola_ugltu" class="navbar-top_a a_green closeble">Автошкола</a></li>
-                            </ul>
-                        </li>
-                        <li class="navbar-top_li"><a href="#contact" class="navbar-top_a a_green">Контакты</a></li>
-                    </ul>
-                </div>
+                <a href="#" class="navbar__btn btn">Creat Account</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
-        </nav>
-        <div class="container header-container">
-            <div class="row">
-                <div class="col-md-10 col-lg-12">
-                    <h1 class="header__h1">Институт Дополнительного профессионального образования</h1>
+            
+        </div>
+    </nav>
+    <header class="header">
+        <div class="container">
+            <div class="header-text">
+                <h1 class="header-text__title">To Make Your Life Easier Take a Card</h1>
+                <p class="header-text__subtitle">There are many variations of passages of Lorem Ipsum available, but the majority have suffered There are many variations of passages of Lorem Ipsum randomised words which don't look even slightly believable.</p>
+                <a href="#" class="header-text__btn btn">Apply Now</a>
+            </div>
+            <div class="header__card">
+                <div class="card__block">
+                    <img src="./images/creditcard/creditcard.png" alt="creditcard" class="card__img">
+                    <img src="./images/creditcard/creditcard-shadow.png" alt="" class="card__img-shadow">
                 </div>
-                <div class="col-md-12">
-                    <h3 class="header__h3">
-                        Измени свое будущее уже сегодня!
-                    </h3>
+                <div class="card__block">
+                    <img src="./images/creditcard/creditcard.png" alt="creditcard" class="card__img card__img_main">
+                    <img src="./images/creditcard/creditcard-shadow.png" alt="" class="card__img-shadow">
+
                 </div>
-                <div class="col-md-12">
-                    <a href="#consultation" class="consultation__a">Получить консультацию</a>
+                <div class="card__block">
+                    <img src="./images/creditcard/creditcard.png" alt="creditcard" class="card__img">
+                    <img src="./images/creditcard/creditcard-shadow.png" alt="" class="card__img-shadow">
+
                 </div>
             </div>
         </div>
-
+        <img src="./images/decor/right_top.png" alt="" class="decore__img decore__img_right-top">
+        <img src="./images/decor/right_bottom.png" alt="" class="decore__img decore__img_right-bottom">
+        <img src="./images/decor/left1.png" alt="" class="decore__img decore__img_left-1">
+        <img src="./images/decor/left2.png" alt="" class="decore__img decore__img_left-2">
+        <img src="./images/decor/left3.png" alt="" class="decore__img decore__img_left-3">
+        <img src="./images/decor/left4.png" alt="" class="decore__img decore__img_left-4">
     </header>
-    <main>
-        <section class="benefits">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h2 class="section__title">Новая профессиия - Новая вершина!
-                            <br>Новая квалификация - Новый горизонт!
-                        </h2>
+    <section class="get-card">
+        <div class="container">
+            <div class="header-block header-block_middle">
+                <h3 class="header-block__subtitle">Easy Process</h3>
+                <h2 class="header-block__title">To Get A Credit Card</h2>
+            </div>
+            <div class="get-card__row">
+                <div class="get-card__column">
+                    <div class="get-card__item">
+                        <img src="./images/To_Get_card/Online_Application.png" alt="icon1" class="get-card__icon">
+                        <p class="get-card__title">Online Application</p>
+                        <p class="get-card__description">Information in the database is published in two formats. It is available in PDF comparison according to type of credit card.</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-4 benefit__item">
-                        <img src="images/benefits/benefit1.png" alt="benefit" class="item__img">
-                        <h4 class="h4 item__title">Большой опыт</h4>
-                        <p class="item__description">С 1990 года на рынке образовательных услуг ДПО.</p>
+                <div class="get-card__column">
+                    <div class="get-card__item get-card__item-center">
+                        <img src="./images/To_Get_card/Get_Approval.png" alt="icon2" class="get-card__icon">
+                        <p class="get-card__title">Get Approval</p>
+                        <p class="get-card__description">Information in the database is published in two formats. It is available in PDF comparison according to type of credit card.</p>
                     </div>
-                    <div class="col-sm-4 benefit__item">
-                        <img src="images/benefits/benefit2.png" alt="benefit" class="item__img">
-                        <h4 class="h4 item__title">Доступное обучения</h4>
-                        <p class="item__description">Стоимость программ от 350 рублей. </p>
-                    </div>
-                    <div class="col-sm-4 benefit__item">
-                        <img src="images/benefits/benefit3.png" alt="benefit" class="item__img">
-                        <h4 class=" h4 item__title">Дистанционное обучение</h4>
-                        <p class="item__description">Применение технологичных решений: цифровые платформы, смешанное обучение</p>
+                </div>
+                <div class="get-card__column">
+                    <div class="get-card__item">
+                        <img src="./images/To_Get_card/Get_Your_Card.png" alt="icon3" class="get-card__icon">
+                        <p class="get-card__title">Get Your Card</p>
+                        <p class="get-card__description">Information in the database is published in two formats. It is available in PDF comparison according to type of credit card.</p>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="structure">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 structure__top">
-                        <p class="structure__p h4">Структура института:</p>
-                        <img src="images/benefits/3treads.png" alt="1to3" class="structure__img desctop">
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <p class="structure__p"><span class="mobile text_green">1. </span>Государственное и муниципальное управление и экономика</p>
-                        </div>
-                        <div class="col-sm-4">
-                            <p class="structure__p"><span class="mobile text_green">2. </span>Промышеленная безопасность и охрана труда</p>
-                        </div>
-                        <div class="col-sm-4">
-                            <p class="structure__p"><span class="mobile text_green">3. </span>Уральский центр повышения квалификации работников автомобильного транспорта</p>
-                        </div>
-                    </div>
+        </div>
+    </section>
+    <section class="service-card">
+        <div class="container">
+            <div class="header-block">
+                <h3 class="header-block__subtitle">useful service avaible</h3>
+                <h2 class="header-block__title">Service of Credit Card</h2>
+            </div>
+            <div class="slider">
+                <div class="slide">
+                    <img src="./images/slide/slide1.jpg" alt="slideimg" class="slide__img">
+                    <p class="slide__text">Balence transform</p>
+                </div>
+                <div class="slide">
+                    <img src="./images/slide/slide2.jpg" alt="slideimg" class="slide__img">
+                    <p class="slide__text">Internet Banking</p>
+                </div>
+                <div class="slide">
+                    <img src="./images/slide/slide3.jpg" alt="slideimg" class="slide__img">
+                    <p class="slide__text">Buying Payment</p>
+                </div>
+                <div class="slide">
+                    <img src="./images/slide/slide4.jpg" alt="slideimg" class="slide__img">
+                    <p class="slide__text">Buy Air Ticket</p>
+                </div>
+                <div class="slide">
+                    <img src="./images/slide/slide2.jpg" alt="slideimg" class="slide__img">
+                    <p class="slide__text">Internet Banking</p>
                 </div>
             </div>
-        </section>
-        <section class="about" id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h2 class="section__title">ИДО УГЛТУ</h2>
+        </div>
+    </section>
+    <section class="benefits">
+        <div class="container">
+            <div class="benefits__block">
+                <div class="benefits__card">
+                    <i class="fas fa-users benefits__icon"></i>
+                    <div class="benefits__text">
+                        <p class="benefits__title">725M</p>
+                        <p class="benefits__subtitle">Happy User</p>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-7">
-                        <ul class="about__ul">
-                            <li class="about__li">
-                                <p class="li__p">Лицензия на право введения деятельности в сфере дополнителього профессионального образовательных от 30 августа 2016 рег №2355 (бессрочный). Выдан Федеральной службой по надзору в сфере образования и науки.</p>
-                            </li>
-                            <li class="about__li">
-                                <p class="li__p">За период с 2011 по 2020 год институтом обучено 51 979 человек по 65 программам</p>
-                            </li>
-                            <li class="about__li">
-                                <p class="li__p">Постоянно развиваем профессиональные компетенции профессорско-преподавательского состава
-                                </p>
-                            </li>
-                            <li class="about__li">
-                                <p class="li__p">Проводим курсы повышения квалификации сотрудников института дополнительного образования для повышения качества реализации предлагаемых услуг</p>
-                            </li>
-                            <li class="about__li">
-                                <p class="li__p">Совершенствуем цифровые компетенции профессорско-преподавательского состава</p>
-                            </li>
-                            <li class="about__li">
-                                <p class="li__p">Развиваем дистанционные технологии системы ДПО</p>
-                            </li>
-                            <li class="about__li">
-                                <p class="li__p">Доступность и простота получения информации
-                                </p>
-                            </li>
-                            <li class="about__li">
-                                <p>Высокое качество обучения.</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-5">
-                        <div class="slider-gallery">
-                            <div class="slide">
-                                <img src="./images/thanks/Gratitude1.jpg" alt="Благодарственное письмо" class="gallery-img">
-                            </div>
-                            <div class="slide">
-                                <img src="./images/thanks/Gratitude2.jpg" alt="Благодарственное письмо" class="gallery-img">
-                            </div>
-                            <div class="slide">
-                                <img src="./images/thanks/Gratitude3.jpg" alt="Благодарственное письмо" class="gallery-img">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="select">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h2 class="section__title">Просто выбери будующее!</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <article class="select-block">
-                        <div class="select__card">
-                            <img src="images/select/direction1.png" alt="direction" class="select__img">
-                            <h4 class="h4 item__title select__title">Повышение квалификации работиков</h4>
-                            <a href="./profdev/index.html" class="btn_green btn">Перейти</a>
-                        </div>
-                        <div class="select__card">
-                            <img src="images/select/direction2.png" alt="direction" class="select__img">
-                            <h4 class="h4 item__title select__title">Профессиональная переподготовка</h4>
-                            <a href="../retraining/index.html" class="btn_green btn">Перейти</a>
-                        </div>
-                        <div class="select__card">
-                            <img src="images/select/direction3.png" alt="direction" class="select__img">
-                            <h4 class="h4 item__title select__title">Студентам</h4>
-                            <a href="#" class="btn_green btn">Перейти</a>
-                        </div>
-                        <div class="select__card">
-                            <img src="images/select/direction4.png" alt="direction" class="select__img">
-                            <h4 class="h4 item__title select__title">УЦПКРАТ</h4>
-                            <a href="https://ucpkrat.ru" class="btn_green btn">Перейти</a>
-                        </div>
-                        <div class="select__card">
-                            <img src="images/select/direction5.png" alt="direction" class="select__img">
-                            <h4 class="h4 item__title select__title">Профессиональное обучение</h4>
-                            <a href="#" class="btn_green btn">Перейти</a>
-                        </div>
-                        <div class="select__card">
-                            <img src="images/select/direction6.png" alt="direction" class="select__img">
-                            <h4 class="h4 item__title select__title">Автошкола</h4>
-                            <a href="http://kafatr.ru/avtoshkola_ugltu" class="btn_green btn">Перейти</a>
-                        </div>
-                    </article>
 
                 </div>
-            </div>
-        </section>
-        <section class="consultation" id="consultation">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h2 class="section__title">Получить консультацию</h2>
+                <div class="benefits__card">
+                    <i class="fas fa-heart benefits__icon"></i>
+                    <div class="benefits__text">
+                        <p class="benefits__title">700M</p>
+                        <p class="benefits__subtitle">User Apprication</p>
                     </div>
                 </div>
-                <form action="" class="form-contact" method="post" class="consultation__form">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <lable for="personal-name" class="h4 form__lable">1. ФИО*</lable>
-                            <input type="text" id="personal-name" class="form__input" required placeholder="Иван Иванов">
-                            <lable for="personal-email" class="h4 form__lable">2. Почта*</lable>
-                            <input type="email" id="personal-email" class="form__input" required placeholder="ivan@mail.ru">
-                            <lable for="personal-phone" class="h4 form__lable">3. Телефон</lable>
-                            <input type="tel" id="personal-phone" class="form__input" placeholder="+7(900)100-20-30">
-                        </div>
-                        <div class="col-md-6">
-                            <lable for="personal-phone" class="h4 h4 form__lable">4. Вопрос*</lable>
-                            <textarea type="textarea" id="personal-phone" class="form__input form__textarea" placeholder="Меня интересует..."></textarea>
-                        </div>
-                        <div class="col-sm-12 text_center">
-                            <button type="submit" class="btn_green btn">Отправить</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </section>
-        <section class="contact" id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h2 class="section__title">Контакты</h2>
+                <div class="benefits__card">
+                    <i class="fas fa-shopping-cart benefits__icon"></i>
+                    <div class="benefits__text">
+                        <p class="benefits__title">10M+</p>
+                        <p class="benefits__subtitle">Payment Service</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <h4 class="h4">Адрес</h4>
-                        <address>620100, г. Екатеринбург, Сибирский тракт д. 35, учебный корпус 7, кабинет 313, 314</address>
-                        <h4 class="h4">Директор</h4>
-                        <p>Бондарева Ю.А. <a href="mailto:bondarevayua@m.usfeu.ru" class="a_green">bondarevayua@m.usfeu.ru</a>,
-                            <a href="tel:+73432212136" class="a_green">+7(343)221-21-36(1)</a>
-                        </p>
-                        <h4 class="h4">УКЦ Государственное и муниципальное управление и экономика</h4>
-                        <p>Ковалева Н.А. и Осинцева С.А. <a href="mailto:ukc.gmu@yandex.ru" class="a_green">ukc.gmu@yandex.ru</a>,
-                            <a href="tel:+73432212136" class="a_green">+7(343)221-21-36(2)</a>
-                        </p>
-                        <h4 class="h4">УКЦ промбезопастность и охрана труда</h4>
-                        <p>Швамм Л.Г. <a href="mailto:ukc.gmu@yandex.ru" class="a_green">ukc.gmu@yandex.ru</a>,
-                            <a href="tel:+73432212136" class="a_green">+7(343)221-21-36(4)</a>
-                        </p>
-                        <h4 class="h4">Уральский центр повышения квалификации работников автомобильного транспорта</h4>
-                        <p>Шавнина М.В. <a href="mailto:2546580@mail.ru" class="a_green">2546580@mail.ru</a>,
-                            <a href="tel:+79126378615" class="a_green">+7(912)637-86-15</a>,
-                            <a href="tel:+79122307429" class="a_green">+7(912)230-74-29</a>
-                        </p>
+                <div class="benefits__card">
+                    <i class="fas fa-rocket benefits__icon"></i>
+                    <div class="benefits__text">
+                        <p class="benefits__title">600M</p>
+                        <p class="benefits__subtitle">User Feedback</p>
                     </div>
-                    <div class="col-md-6 contact__map">
-                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A4b0d6728bdbda6b26370fbd9e182e7d2794b5df5cdfc6ac2526a7b53e0a75d59&amp;source=constructor" width="560" height="400" frameborder="0" class="map"></iframe>
-                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="form">
+        <div class="container">
+            <div class="header-block">
+                <h2 class="header-block__title">Your Message</h2>
+            </div>
+            <form action="" class="form-contact" method="post" class="consultation__form">
+                <div class="form__half-block">
+                    <input type="text" id="personal-name" class="form__input" required placeholder="Your Name">
+                    <input type="email" id="personal-email" class="form__input" required placeholder="Email Address">
+                    <input type="text" id="personal-subject" class="form__input" placeholder="Subject">
+                </div>
+                <div class="form__half-block">
+                    <textarea type="textarea" id="massage" class="form__input form__textarea" placeholder="Message"></textarea>
+                    <button type="submit" class="form-btn">Submit</button>
                 </div>
 
-            </div>
-        </section>
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <h4 class="h4 footer__title">Навигация</h4>
-                        <a href="#top" class="footer__link">Наверх</a>
-                        <a href="./profdev/index.html" class="footer__link">Повышение квалификации работиков</a>
-                        <a href="../retraining/index.html" class="footer__link">Профессиональная переподготовка</a>
-                        <a href="#" class="footer__link">Студентам</a>
-                        <a href="https://ucpkrat.ru" class="footer__link">УЦПКРАТ</a>
-                        <a href="#" class="footer__link">Профессиональное обучение</a>
-                        <a href="http://kafatr.ru/avtoshkola_ugltu" class="footer__link">Автошкола</a>
-                    </div>
-                    <div class="col-sm-6">
-                        <h4 class="h4 footer__title">Полезные ссылки</h4>
-                        <a href="http://usfeu.ru" class="footer__link">Главная странница университета</a>
-                        <a href="#" class="footer__link">Правовые документы</a>
-                        <a href="#" class="footer__link">Политика конфиденциальности</a>
-                        <a href="#" class="footer__link">Структура организации</a>
-<!--                        <a href="#" class="footer__link"><span class="iconify icon_inst a_green" data-inline="false" data-icon="fa-brands:instagram"></span></a>-->
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <address class="footer__link copy_link">&copy;Институт дополнительного профессионального образования УГЛТУ 2021</address>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-    </main>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
-    <script src="js/bootstrap.min.js" defer></script>
-    <script src="js/jquery.vide.js" defer></script>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer__copyright">
+            Copyright &copy; Digital Marketing. AllRight Reseverd
+        </p>
+    </footer>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="slick/slick.min.js" defer></script>
-    <script type="text/javascript" src="js/sliderSett.js" defer></script>
-    <script src="js/customJS.js" defer></script>
+    <script defer src="js/main.js"></script>
+</body>
 
-</body></html>
+</html>
