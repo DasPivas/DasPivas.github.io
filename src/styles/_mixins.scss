@@ -1,0 +1,117 @@
+@use "sass:map";
+@import "src/styles/variables";
+
+/**
+ * Adaptive
+ * -------------------------------------------------------------------------- */
+
+@mixin adaptive-for($high, $low, $strictly: false) {
+	@if $strictly {
+		@media (max-width: $high) and (min-width: $low) {
+			@content
+		}
+	} @else {
+		@media (max-width: $high) {
+			@content
+		}
+	}
+}
+
+@mixin adaptive-for-default {
+	@media (min-width: $breakpoint-default-min) {
+		@content
+	}
+}
+
+@mixin adaptive-for-laptop($strictly: false) {
+	@include adaptive-for(
+		$high: $breakpoint-laptop,
+		$low: $breakpoint-laptop-min,
+		$strictly: $strictly
+	) {
+		@content
+	}
+}
+
+@mixin adaptive-for-tablet($strictly: false) {
+	@include adaptive-for(
+		$high: $breakpoint-tablet,
+		$low: $breakpoint-tablet-min,
+		$strictly: $strictly
+	) {
+		@content
+	}
+}
+
+@mixin adaptive-for-mobile($strictly: false) {
+	@include adaptive-for(
+		$high: $breakpoint-mobile,
+		$low: 0px,
+		$strictly: $strictly
+	) {
+		@content
+	}
+}
+
+@mixin adaptive-rule($rule, $values) {
+	$default: map.get($values, 'default');
+	$laptop: map.get($values, 'laptop');
+	$tablet: map.get($values, 'tablet');
+	$mobile: map.get($values, 'mobile');
+
+	@if $default {
+		#{$rule}: $default;
+	}
+
+	@if $laptop {
+		@include adaptive-for-laptop {
+			#{$rule}: $laptop;
+		}
+	}
+
+	@if $tablet {
+		@include adaptive-for-tablet {
+			#{$rule}: $tablet;
+		}
+	}
+
+	@if $mobile {
+		@include adaptive-for-mobile {
+			#{$rule}: $mobile;
+		}
+	}
+}
+
+@mixin use-size($size) {
+	width: $size;
+	height: $size;
+}
+
+@mixin use-main-column-width {
+	width: 100%;
+
+	@include adaptive-rule('max-width', (
+		default: $main-column-width,
+		laptop: $main-column-width-laptop,
+		tablet: $main-column-width-tablet,
+		mobile: $main-column-width-mobile,
+	))
+}
+
+@mixin main-column-safe-area-padding {
+	$values: (
+		default: $main-column-safe-area,
+		laptop: $main-column-safe-area-laptop,
+		tablet: $main-column-safe-area-tablet,
+		mobile: $main-column-safe-area-mobile,
+	);
+
+	@include adaptive-rule('padding-left', $values);
+	@include adaptive-rule('padding-right', $values);
+}
+
+@mixin card-style-base {
+	background: $c-white;
+	box-shadow: $shadow-card;
+	border-radius: $br-base;
+}

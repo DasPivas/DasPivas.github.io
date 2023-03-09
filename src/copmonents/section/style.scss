@@ -1,0 +1,8 @@
+@import "src/styles/variables";
+@import "src/styles/mixins";
+
+.section {
+	@include use-main-column-width();
+	@include main-column-safe-area-padding();
+	margin: 0 auto;
+}

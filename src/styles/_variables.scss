@@ -1,0 +1,85 @@
+/**
+ * Base Colors 🎨
+ * -------------------------------------------------------------------------- */
+
+$c-white: #FFFFFF;
+$c-black: #000000;
+
+$c-gray: #333333;
+
+
+$c-blue: #628ABC;
+$c-blue-dark-1: #1E34B7;
+
+$red: #FF262E;
+
+/**
+ * Typography 📖
+ * -------------------------------------------------------------------------- */
+
+$font-family-heading: 'RussoOne-Regular', -apple-system, sans-serif;
+$font-family-body: 'Roboto', sans-serif;
+
+/**
+ * Space 📏
+ * -------------------------------------------------------------------------- */
+
+$space-0: 0;
+$space-xs: 8px;
+$space-s: 16px;
+$space-m: 24px;
+$space-l: 32px;
+$space-xs: 64px;
+
+/**
+ * Duration ⌛
+ * -------------------------------------------------------------------------- */
+
+$duration: 0.225s;
+
+
+/**
+ * Magic numbers 🪄
+ * -------------------------------------------------------------------------- */
+
+$grid-gaps: 0, 12, 24, 36, 64;
+
+$main-column-width: 1600px;
+$main-column-width-laptop: 1298px;
+$main-column-width-tablet: 1074px;
+$main-column-width-mobile: 540px;
+
+$main-column-safe-area: 64px;
+$main-column-safe-area-laptop: 32px;
+$main-column-safe-area-tablet: 28px;
+$main-column-safe-area-mobile: 12px;
+
+$header-height: 138px;
+$header-height-laptop: 136px;
+$header-height-tablet: 102px;
+$header-height-mobile: 102px;
+
+/**
+ * Shadows 🧙‍♂️
+ * -------------------------------------------------------------------------- */
+
+$shadow-base: 0 8px 16px rgba(0, 0, 0, 0.06);
+$shadow-card: 0 10px 20px rgba(0, 0, 0, 0.05);
+
+/**
+ * Breakpoints 🧩
+ * -------------------------------------------------------------------------- */
+
+$breakpoint-default-min: 1601px;
+$breakpoint-laptop: 1600px;
+$breakpoint-laptop-min: 1295px;
+$breakpoint-tablet: 1294px;
+$breakpoint-tablet-min: 769px;
+$breakpoint-mobile: 768px;
+
+/**
+ * Border radius ⭕
+ * -------------------------------------------------------------------------- */
+
+$br-base: 8px;
+$br-infinity: 9999px;
