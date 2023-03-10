@@ -1,5 +1,5 @@
-@use "sass:map";
-@import "src/styles/variables";
+@use 'sass:map';
+@import 'src/styles/variables';
 
 /**
  * Adaptive
@@ -8,18 +8,18 @@
 @mixin adaptive-for($high, $low, $strictly: false) {
 	@if $strictly {
 		@media (max-width: $high) and (min-width: $low) {
-			@content
+			@content;
 		}
 	} @else {
 		@media (max-width: $high) {
-			@content
+			@content;
 		}
 	}
 }
 
 @mixin adaptive-for-default {
 	@media (min-width: $breakpoint-default-min) {
-		@content
+		@content;
 	}
 }
 
@@ -29,7 +29,7 @@
 		$low: $breakpoint-laptop-min,
 		$strictly: $strictly
 	) {
-		@content
+		@content;
 	}
 }
 
@@ -39,7 +39,7 @@
 		$low: $breakpoint-tablet-min,
 		$strictly: $strictly
 	) {
-		@content
+		@content;
 	}
 }
 
@@ -49,7 +49,7 @@
 		$low: 0px,
 		$strictly: $strictly
 	) {
-		@content
+		@content;
 	}
 }
 
@@ -90,12 +90,15 @@
 @mixin use-main-column-width {
 	width: 100%;
 
-	@include adaptive-rule('max-width', (
-		default: $main-column-width,
-		laptop: $main-column-width-laptop,
-		tablet: $main-column-width-tablet,
-		mobile: $main-column-width-mobile,
-	))
+	@include adaptive-rule(
+		'max-width',
+		(
+			default: $main-column-width,
+			laptop: $main-column-width-laptop,
+			tablet: $main-column-width-tablet,
+			mobile: $main-column-width-mobile,
+		)
+	);
 }
 
 @mixin main-column-safe-area-padding {

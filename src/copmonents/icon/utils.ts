@@ -3,10 +3,9 @@ import { ReactComponent as menu } from './icons/menu.svg'
 
 const iconsSvg = {
 	resume,
-	menu
+	menu,
 }
 
 export type IconName = keyof typeof iconsSvg
 
 export const getIconSvg = (name: IconName) => iconsSvg[name]
-

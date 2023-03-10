@@ -1,57 +1,74 @@
-@import "./fonts";
-@import "src/styles/variables";
+@import './fonts';
+@import 'src/styles/variables';
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-html, body, #__nuxt, #__layout {
-  height: 100%;
+html,
+body,
+#__nuxt,
+#__layout {
+	height: 100%;
 }
-
 
 body {
-  margin: 0;
-  color: $c-black;
-  overflow-x: hidden;
+	margin: 0;
+	color: $c-black;
+	overflow-x: hidden;
 
-  font-family: $font-family-body;
-  font-weight: 400;
-  font-size: 16px;
+	font-family: $font-family-body;
+	font-weight: 400;
+	font-size: 16px;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 .icon {
-  height: 100%;
-  width: 100%;
+	height: 100%;
+	width: 100%;
 }
 
-button, input, h1, h2, h3, h4, h5, h6, p, ul, li {
-  outline: none;
-  border: none;
-  padding: 0;
-  margin: 0;
+button,
+input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+	outline: none;
+	border: none;
+	padding: 0;
+	margin: 0;
 
-  background: transparent;
+	background: transparent;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  //font-family: $font-family-heading;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	//font-family: $font-family-heading;
 }
 
 li {
-  list-style-type: none;
+	list-style-type: none;
 }
 
 ul {
-  margin-left: 0;
-  padding-left: 0;
+	margin-left: 0;
+	padding-left: 0;
 }
 
 .body--hidden {
-  overflow: hidden !important;
+	overflow: hidden !important;
 }
