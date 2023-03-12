@@ -12,4 +12,12 @@
 	@include adaptive-for-mobile {
 		margin-bottom: $space-m;
 	}
+
+	&:after {
+		content: '\2606';
+		display: inline-block;
+		margin-left: 16px;
+
+		color: $c-blue;
+	}
 }

@@ -1,3 +1,5 @@
+import { DateTime } from 'luxon'
+
 function getNoun(number: number, one: string, two: string, five: string) {
 	let n = Math.abs(number)
 	n %= 100
@@ -14,4 +16,10 @@ function getNoun(number: number, one: string, two: string, five: string) {
 	return five
 }
 
-export { getNoun }
+const dateFromSeconds = (date: number, format: string) => {
+	return DateTime.fromSeconds(date).toFormat(format, {
+		locale: 'ru-RU',
+	})
+}
+
+export { getNoun, dateFromSeconds }

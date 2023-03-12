@@ -15,13 +15,13 @@ export const Header: FC = () => {
 						<img src={avatar} alt="Avatar" className={styles.header__image} />
 					</a>
 
-					<div className={styles.header__nav}>
+					<nav className={styles.header__nav}>
 						{LINKS.map((item) => (
 							<AnchorLink href={item.link} className="link">
 								{item.label}
 							</AnchorLink>
 						))}
-					</div>
+					</nav>
 				</div>
 			</Section>
 		</header>

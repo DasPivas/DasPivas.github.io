@@ -3,20 +3,21 @@
 
 .icon {
 	width: 100%;
+	height: auto;
 	color: currentColor;
+}
 
-	&.small {
-		width: 8px;
-		height: 8px;
-	}
+.small {
+	width: 24px;
+	height: 24px;
+}
 
-	&.medium {
-		width: 16px;
-		height: 16px;
-	}
+.medium {
+	width: 48px;
+	height: 48px;
+}
 
-	&.large {
-		width: 32px;
-		height: 32px;
-	}
+.large {
+	width: 64px;
+	height: 64px;
 }

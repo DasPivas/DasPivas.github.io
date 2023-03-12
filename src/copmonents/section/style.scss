@@ -5,4 +5,8 @@
 	@include use-main-column-width();
 	@include main-column-safe-area-padding();
 	margin: 0 auto;
+
+	&._mb {
+		margin-bottom: 64px;
+	}
 }

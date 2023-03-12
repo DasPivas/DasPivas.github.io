@@ -1,0 +1,52 @@
+@import "src/styles/mixins";
+
+.career {
+
+	&__list {
+		display: flex;
+		flex-direction: column-reverse;
+
+		gap: 48px;
+	}
+}
+
+.careerItem {
+	width: 100%;
+	display: flex;
+
+	&__date {
+		width: 300px;
+		flex-shrink: 0;
+		margin-right: 24px;
+	}
+
+	&__time {
+		font-size: .8em;
+	}
+
+	&__experience {
+		font-size: .7em;
+
+		opacity: .7;
+	}
+
+	&__body {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__title {
+		width: fit-content;
+		margin-bottom: 8px;
+	}
+
+	&__job {
+		margin-bottom: 8px;
+
+		font-size: 1.2em;
+	}
+
+	&__description {
+		font-size: .8em;
+	}
+}

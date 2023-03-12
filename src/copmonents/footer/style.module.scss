@@ -1,0 +1,26 @@
+@import 'src/styles/variables';
+
+.footer {
+	height: 80px;
+	width: 100%;
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		padding: 8px 0;
+	}
+
+	&__copyright {
+		font-size: .8em;
+		vertical-align: center;
+	}
+
+	&__links {
+		display: flex;
+	}
+
+	&__icon {
+		width: 64px;
+		height: 64px;
+	}
+}

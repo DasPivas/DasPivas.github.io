@@ -1,9 +1,7 @@
-import { ReactComponent as resume } from './icons/resume.svg'
-import { ReactComponent as menu } from './icons/menu.svg'
+import { ReactComponent as github } from './icons/github.svg'
 
 const iconsSvg = {
-	resume,
-	menu,
+	github,
 }
 
 export type IconName = keyof typeof iconsSvg

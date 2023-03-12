@@ -10,7 +10,7 @@ import { TEXTS } from '../../const/about'
 
 export const About: FC = () => {
 	return (
-		<Section>
+		<Section additionalMb>
 			<div className={styles.about}>
 				<SectionTitle title={'О себе'} anchor={'about'} />
 				<picture className={styles.about__picture}>
