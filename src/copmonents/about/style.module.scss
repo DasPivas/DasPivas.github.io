@@ -1,0 +1,48 @@
+@import "src/styles/mixins";
+
+.about {
+
+	&__picture {
+		position: relative;
+		z-index: 1;
+		display: block;
+		width: 100%;
+		max-width: 350px;
+		float: right;
+		margin: 0 0 16px 16px;
+		padding: 0 16px 16px 0;
+
+		@include adaptive-for-mobile {
+			float: none;
+			margin: 0 auto 16px;
+		}
+
+		&:before {
+			content: '';
+			z-index: 0;
+			display: block;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			width: calc(100% - 16px);
+			height: calc(100% - 16px);
+
+			border: 2px solid $c-blue;
+			border-radius: $br-base;
+		}
+
+	}
+
+	&__image {
+		display: block;
+		position: relative;
+		z-index: 1;
+		width: 100%;
+
+		border-radius: $br-base;
+	}
+
+	&__text {
+		margin: 0.8em 0;
+	}
+}

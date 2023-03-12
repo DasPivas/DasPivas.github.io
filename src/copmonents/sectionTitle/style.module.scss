@@ -1,0 +1,15 @@
+@import "src/styles/mixins";
+
+.sectionTitle {
+	margin-bottom: $space-xl;
+
+	font-size: 1.8em;
+
+	@include adaptive-for-tablet {
+		margin-bottom: $space-l;
+	}
+
+	@include adaptive-for-mobile {
+		margin-bottom: $space-m;
+	}
+}
