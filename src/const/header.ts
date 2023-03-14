@@ -7,10 +7,10 @@ const LINKS = [
 		label: 'Карьера',
 		link: '#career',
 	},
-	// {
-	// 	label: 'Примеры работ',
-	// 	link: '#examples',
-	// },
+	{
+		label: 'Проекты',
+		link: '#projects',
+	},
 ]
 
 export { LINKS }

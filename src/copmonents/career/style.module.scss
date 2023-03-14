@@ -7,6 +7,10 @@
 		flex-direction: column-reverse;
 
 		gap: 48px;
+
+		@include adaptive-for-tablet() {
+			gap: 24px;
+		}
 	}
 }
 
@@ -14,14 +18,34 @@
 	width: 100%;
 	display: flex;
 
+	@include adaptive-for-mobile {
+		flex-direction: column;
+	}
+
 	&__date {
-		width: 300px;
+		width: 200px;
 		flex-shrink: 0;
 		margin-right: 24px;
+
+		@include adaptive-for-tablet(true) {
+			width: 150px;
+		}
+
+		@include adaptive-for-mobile {
+			width: 100%;
+			display: flex;
+			gap: 16px;
+			margin-bottom: 8px;
+		}
 	}
 
 	&__time {
 		font-size: .8em;
+		white-space: break-spaces;
+
+		@include adaptive-for-mobile {
+			white-space: normal;
+		}
 	}
 
 	&__experience {

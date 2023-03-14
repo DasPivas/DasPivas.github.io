@@ -1,0 +1,65 @@
+@import "src/styles/mixins";
+
+.projects {
+	&__list {
+		display: flex;
+		flex-direction: column;
+
+		gap: 48px;
+
+		@include adaptive-for-tablet() {
+			gap: 24px;
+		}
+	}
+}
+.projectItem {
+	display: flex;
+	gap: 48px;
+
+	&__image {
+		position: relative;
+		width: 30%;
+		padding: 0 16px 16px 0;
+		flex-shrink: 0;
+
+		&:before {
+			content: '';
+			z-index: 0;
+			display: block;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			width: calc(100% - 16px);
+			height: calc(100% - 16px);
+
+			border: 2px solid $c-blue;
+			border-radius: $br-base;
+		}
+
+		&Source {
+			position: relative;
+			z-index: 1;
+			width: 100%;
+			display: block;
+
+			border-radius: $br-base;
+		}
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+
+		&Title {
+			font-size: 1.2em;
+		}
+
+
+		&Description {
+			font-size: 0.8em;
+			opacity: .8;
+		}
+	}
+
+}

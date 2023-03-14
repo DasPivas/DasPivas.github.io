@@ -15,8 +15,8 @@ export const Hobbies: FC = () => {
 		<div>
 			<h3 className={styles.hobbies__title}>Хобби</h3>
 			<ul>
-				{HOBBIES.map((item) => (
-					<HobbiesItem title={item.title} emoji={item.emoji} />
+				{HOBBIES.map((item, idx) => (
+					<HobbiesItem title={item.title} emoji={item.emoji} key={idx} />
 				))}
 			</ul>
 		</div>

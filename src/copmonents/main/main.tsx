@@ -3,6 +3,7 @@ import styles from './style.module.scss'
 import { Greeting } from '../greeting'
 import { About } from '../about'
 import { Career } from '../career'
+import { Projects } from '../projects'
 
 export const Main: FC = () => {
 	return (
@@ -10,6 +11,7 @@ export const Main: FC = () => {
 			<Greeting />
 			<About />
 			<Career />
+			<Projects />
 		</div>
 	)
 }

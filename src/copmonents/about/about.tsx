@@ -17,8 +17,10 @@ export const About: FC = () => {
 					<source type="image/webp" srcSet={selfWebp} />
 					<img src={self} alt="Misha Pryadun" className={styles.about__image} />
 				</picture>
-				{TEXTS.map((text) => (
-					<p className={styles.about__text}>{text}</p>
+				{TEXTS.map((text, idx) => (
+					<p className={styles.about__text} key={idx}>
+						{text}
+					</p>
 				))}
 				<Hobbies />
 			</div>

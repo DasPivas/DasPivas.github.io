@@ -16,7 +16,10 @@ function getNoun(number: number, one: string, two: string, five: string) {
 	return five
 }
 
-const dateFromSeconds = (date: number, format: string) => {
+const dateFromSeconds = (
+	date: number,
+	format: string = 'DD MM yyyy'
+): string => {
 	return DateTime.fromSeconds(date).toFormat(format, {
 		locale: 'ru-RU',
 	})

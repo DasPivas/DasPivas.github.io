@@ -17,7 +17,7 @@ export const Header: FC = () => {
 
 					<nav className={styles.header__nav}>
 						{LINKS.map((item) => (
-							<AnchorLink href={item.link} className="link">
+							<AnchorLink href={item.link} className="link" key={item.label}>
 								{item.label}
 							</AnchorLink>
 						))}

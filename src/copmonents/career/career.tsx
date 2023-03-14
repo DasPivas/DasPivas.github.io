@@ -20,6 +20,7 @@ export const Career: FC = () => {
 							description={job.description}
 							link={job.link}
 							isNowJob={job.isNowJob}
+							key={job.dateUp}
 						/>
 					))}
 				</div>
