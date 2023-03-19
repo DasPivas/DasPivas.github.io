@@ -4,7 +4,7 @@ interface Company {
 	dateUp: number
 	dateDown?: number
 	jobTitle: string
-	description: string
+	description: string[]
 	isNowJob?: boolean
 }
 

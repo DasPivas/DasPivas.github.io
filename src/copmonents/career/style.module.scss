@@ -40,6 +40,8 @@
 	}
 
 	&__time {
+		display: inline-block;
+		margin-bottom: 16px;
 		font-size: .8em;
 		white-space: break-spaces;
 
@@ -71,6 +73,13 @@
 	}
 
 	&__description {
+		margin-bottom: 8px;
+
 		font-size: .8em;
+
+		&:last-child {
+			margin-bottom: 0;
+
+		}
 	}
 }

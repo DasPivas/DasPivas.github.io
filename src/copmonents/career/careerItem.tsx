@@ -2,8 +2,7 @@ import React, { FC } from 'react'
 import styles from './style.module.scss'
 import cn from 'classnames'
 import { Company } from '../../types/career'
-import { dateFromSeconds, getNoun } from '../../utils/date'
-import { DateTime } from 'luxon'
+import { dateFromSeconds, formatExperience } from '../../utils/date'
 
 const MONTHS = [
 	'Январь',
@@ -32,33 +31,6 @@ const formTimeLabel = (start: number, end?: number) => {
 	)}`
 }
 
-const formatExperience = (start: number, end?: number): string => {
-	const dateStart = DateTime.fromSeconds(start)
-	const dateEnd = end ? DateTime.fromSeconds(end) : DateTime.now()
-	const diffDate = dateEnd.diff(dateStart, ['year', 'months'])
-
-	const result: string[] = []
-
-	const formDateString = (
-		property: 'years' | 'months',
-		one: string,
-		two: string,
-		five: string
-	) => {
-		const dateProps = Math.ceil(diffDate[property])
-		// const dateProps = diffDate[property]
-
-		if (dateProps < 1) return
-
-		result.push(`${dateProps} ${getNoun(dateProps, one, two, five)}`)
-	}
-
-	formDateString('years', 'год', 'года', 'лет')
-	formDateString('months', 'месяц', 'месяца', 'месяцев')
-
-	return result.join(' ')
-}
-
 export const CareerItem: FC<Company> = ({
 	title,
 	link,
@@ -84,7 +56,11 @@ export const CareerItem: FC<Company> = ({
 					{title}
 				</a>
 				<h5 className={styles.careerItem__job}>{jobTitle}</h5>
-				<p className={styles.careerItem__description}>{description}</p>
+				{description.map((str, idx) => (
+					<p className={styles.careerItem__description} key={idx}>
+						{str}
+					</p>
+				))}
 			</div>
 		</div>
 	)
