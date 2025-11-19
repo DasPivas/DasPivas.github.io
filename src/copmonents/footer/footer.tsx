@@ -8,7 +8,7 @@ export const Footer: FC = () => {
 		<footer className={styles.footer}>
 			<Section>
 				<div className={styles.footer__inner}>
-					<div className={styles.footer__copyright}>Misha Pryadun 2023</div>
+					<div className={styles.footer__copyright}>Misha Pryadun 2025</div>
 
 					<div className={styles.footer__links}>
 						<a

@@ -1,0 +1,2 @@
+export { TechStack } from './techStack'
+

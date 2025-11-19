@@ -8,8 +8,8 @@ const LINKS = [
 		link: '#career',
 	},
 	{
-		label: 'Проекты',
-		link: '#projects',
+		label: 'Выступления',
+		link: '#performances',
 	},
 ]
 

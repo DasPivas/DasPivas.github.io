@@ -7,16 +7,16 @@ export const Greeting: FC = () => {
 		<Section>
 			<div className={styles.greeting}>
 				<p>
-					Всем привет!👋
+					Приветствую! 👋
 					<br />
-					меня зовут:
+					Меня зовут:
 				</p>
 				<h1 className={styles.greeting__title}>
 					<a href="/" className="link">
-						Прядун Миша
+						Михаил Прядун
 					</a>
 				</h1>
-				<p className={styles.greeting__goal}>Делаю интернет ярче!🪄</p>
+				<p className={styles.greeting__goal}>Senior Frontend Developer</p>
 			</div>
 		</Section>
 	)

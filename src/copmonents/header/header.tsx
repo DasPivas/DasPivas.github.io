@@ -1,5 +1,4 @@
 import React, { FC } from 'react'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
 import styles from './style.module.scss'
 import { Section } from '../section'
 
@@ -17,9 +16,9 @@ export const Header: FC = () => {
 
 					<nav className={styles.header__nav}>
 						{LINKS.map((item) => (
-							<AnchorLink href={item.link} className="link" key={item.label}>
+							<a href={item.link} className="link" key={item.label}>
 								{item.label}
-							</AnchorLink>
+							</a>
 						))}
 					</nav>
 				</div>

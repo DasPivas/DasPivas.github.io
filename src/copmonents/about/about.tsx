@@ -2,7 +2,6 @@ import React, { FC } from 'react'
 import styles from './style.module.scss'
 import { Section } from '../section'
 import { SectionTitle } from '../sectionTitle'
-import { Hobbies } from '../hobbies'
 
 import self from '../../assets/images/self.jpg'
 import selfWebp from '../../assets/images/self.webp'
@@ -22,7 +21,6 @@ export const About: FC = () => {
 						{text}
 					</p>
 				))}
-				<Hobbies />
 			</div>
 		</Section>
 	)

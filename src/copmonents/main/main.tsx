@@ -2,16 +2,18 @@ import React, { FC } from 'react'
 import styles from './style.module.scss'
 import { Greeting } from '../greeting'
 import { About } from '../about'
+import { TechStack } from '../techStack'
 import { Career } from '../career'
-import { Projects } from '../projects'
+import { Performances } from '../performances'
 
 export const Main: FC = () => {
 	return (
 		<div className={styles.main}>
 			<Greeting />
 			<About />
+			<TechStack />
 			<Career />
-			<Projects />
+			<Performances />
 		</div>
 	)
 }
