@@ -23,4 +23,15 @@
 		width: 64px;
 		height: 64px;
 	}
+
+	&__info {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+	}
+
+	&__infoItem {
+		font-size: .8em;
+		vertical-align: center;
+	}
 }
