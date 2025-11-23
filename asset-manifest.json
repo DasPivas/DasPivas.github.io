@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.a2b6155d.css",
-    "main.js": "/static/js/main.b57e82bb.js",
+    "main.js": "/static/js/main.09230fa5.js",
     "static/js/453.f19e9853.chunk.js": "/static/js/453.f19e9853.chunk.js",
-    "static/media/self.jpg": "/static/media/self.371dc8073937a734dea2.jpg",
     "static/media/uwdc2025.jpg": "/static/media/uwdc2025.50bef79a1d4adb2c2deb.jpg",
     "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/Roboto-Bold.ttf": "/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
     "static/media/frontend-mix_2025.jpg": "/static/media/frontend-mix_2025.8891b8c5a2ce8e50d686.jpg",
     "static/media/it_talk_by_sber.jpg": "/static/media/it_talk_by_sber.02d768408a90f2bcd48c.jpg",
-    "static/media/self.webp": "/static/media/self.dd91536bb083eadbadd8.webp",
+    "static/media/self.jpg": "/static/media/self.4ab52e5d5a8fb465d3ce.jpg",
+    "static/media/self.webp": "/static/media/self.14e6a18aac983bf939f2.webp",
     "static/media/RussoOne-Regular.ttf": "/static/media/RussoOne-Regular.b2f5b287ccb8fd446eae.ttf",
     "static/media/avatar.jpg": "/static/media/avatar.059f6d280ca8cbdae5fc.jpg",
     "static/media/vk.svg": "/static/media/vk.11fef6888f9c0d558f5d3ca71760e521.svg",
     "index.html": "/index.html",
     "static/media/github.svg": "/static/media/github.c158272a58d6399378353dd542c54a26.svg",
     "main.a2b6155d.css.map": "/static/css/main.a2b6155d.css.map",
-    "main.b57e82bb.js.map": "/static/js/main.b57e82bb.js.map",
+    "main.09230fa5.js.map": "/static/js/main.09230fa5.js.map",
     "453.f19e9853.chunk.js.map": "/static/js/453.f19e9853.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2b6155d.css",
-    "static/js/main.b57e82bb.js"
+    "static/js/main.09230fa5.js"
   ]
 }
