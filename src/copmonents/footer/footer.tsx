@@ -9,7 +9,7 @@ export const Footer: FC = () => {
 			<Section>
 				<div className={styles.footer__inner}>
 					<div className={styles.footer__info}>
-						<div className={styles.footer__copyright}>Misha Pryadun 2025</div>
+						<div className={styles.footer__copyright}>Misha Pryadun 2026</div>
 						<div className={styles.footer__infoItem}>
 							<a
 								href="https://t.me/@pryadun69"

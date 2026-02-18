@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Resume - Mikhail Pryadun</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+			color: #000;
+			line-height: 1.6;
+			padding: 40px;
+			max-width: 900px;
+			margin: 0 auto;
+			background: #fff;
+		}
+
+		@media print {
+			body {
+				padding: 20px;
+			}
+			.page-break {
+				page-break-after: always;
+			}
+		}
+
+		h1 {
+			font-size: 36px;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+
+		h2 {
+			font-size: 24px;
+			margin-top: 30px;
+			margin-bottom: 15px;
+			padding-bottom: 10px;
+			border-bottom: 2px solid #333;
+			font-weight: bold;
+		}
+
+		h3 {
+			font-size: 20px;
+			margin-top: 20px;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+
+		h4 {
+			font-size: 18px;
+			margin-top: 15px;
+			margin-bottom: 8px;
+			font-weight: bold;
+		}
+
+		h5 {
+			font-size: 16px;
+			margin-top: 10px;
+			margin-bottom: 5px;
+			font-weight: 600;
+			color: #555;
+		}
+
+		p {
+			margin-bottom: 10px;
+			text-align: justify;
+		}
+
+		.header {
+			text-align: center;
+			margin-bottom: 40px;
+		}
+
+		.header p {
+			font-size: 18px;
+			color: #666;
+			margin-top: 5px;
+		}
+
+		.contact-info {
+			text-align: center;
+			margin-bottom: 30px;
+			padding: 15px;
+			background: #f5f5f5;
+			border-radius: 5px;
+		}
+
+		.contact-info p {
+			margin: 5px 0;
+		}
+
+		.about-section p {
+			margin-bottom: 15px;
+		}
+
+		.tech-stack {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 10px;
+			margin-top: 10px;
+		}
+
+		.tech-item {
+			background: #f0f0f0;
+			padding: 8px 15px;
+			border-radius: 5px;
+			font-size: 14px;
+		}
+
+		.career-item {
+			margin-bottom: 30px;
+			padding: 20px;
+			background: #fafafa;
+			border-left: 4px solid #333;
+			border-radius: 5px;
+		}
+
+		.career-header {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+			margin-bottom: 15px;
+		}
+
+		.career-company {
+			font-size: 20px;
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+
+		.career-date {
+			font-size: 14px;
+			color: #666;
+			text-align: right;
+			white-space: pre-line;
+		}
+
+		.career-description {
+			margin-top: 10px;
+		}
+
+		.career-description p {
+			margin-bottom: 8px;
+			padding-left: 15px;
+			position: relative;
+		}
+
+		.career-description p:before {
+			content: "•";
+			position: absolute;
+			left: 0;
+			font-weight: bold;
+		}
+
+		.performance-item {
+			margin-bottom: 20px;
+			padding: 15px;
+			background: #f9f9f9;
+			border-radius: 5px;
+		}
+
+		.performance-item h4 {
+			margin-top: 0;
+		}
+
+		.project-item {
+			margin-bottom: 20px;
+			padding: 15px;
+			background: #f9f9f9;
+			border-radius: 5px;
+		}
+
+		.project-item h4 {
+			margin-top: 0;
+		}
+
+		.project-links {
+			margin-top: 10px;
+		}
+
+		.project-links a {
+			color: #0066cc;
+			text-decoration: none;
+			margin-right: 15px;
+		}
+
+		.project-links a:hover {
+			text-decoration: underline;
+		}
+
+		.hobbies {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 15px;
+			margin-top: 10px;
+		}
+
+		.hobby-item {
+			background: #f0f0f0;
+			padding: 10px 15px;
+			border-radius: 5px;
+			font-size: 14px;
+		}
+
+		@page {
+			margin: 2cm;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1>Mikhail Pryadun</h1>
+		<p>Senior Frontend Developer</p>
+	</div>
+
+	<div class="contact-info">
+		<p><strong>Telegram:</strong> @pryadun69</p>
+		<p><strong>GitHub:</strong> https://github.com/DasPivas</p>
+		<p><strong>Resume Website:</strong> https://daspivas.github.io</p>
+		<p><strong>Email:</strong> misha.pma12@yandex.ru</p>
+	</div>
+
+	<section class="about-section">
+		<h2>About Me</h2>
+		<p>Over 5 years of experience building interfaces of varying complexity and purpose. I specialize in frontend development for high-load products: designing architecture, delivering solutions from idea to production, and owning stable delivery of changes. Main stack — JavaScript/TypeScript, React, and the ecosystem of modern frontend development tools.</p>
+		<p>I have hands-on fintech production experience aligned with banking security and quality standards. I focus on performance, reliability of client applications, and predictable releases: from API contracts and integrations to automated checks in the development process.</p>
+		<p>Core strengths: ownership, systems thinking, and cross-team collaboration. I run code reviews, mentor teammates, participate in architectural decisions, and improve team engineering practices. I also speak at professional conferences and share knowledge with the developer community.</p>
+	</section>
+
+	<section>
+		<h2>Tech Stack</h2>
+		<div class="tech-stack">
+			<div class="tech-item">JavaScript</div>
+			<div class="tech-item">TypeScript</div>
+			<div class="tech-item">React</div>
+			<div class="tech-item">Redux</div>
+			<div class="tech-item">Next.js</div>
+			<div class="tech-item">Vue</div>
+			<div class="tech-item">Nuxt</div>
+			<div class="tech-item">HTML5</div>
+			<div class="tech-item">CSS3</div>
+			<div class="tech-item">SCSS/SASS</div>
+			<div class="tech-item">Node.js</div>
+			<div class="tech-item">Git</div>
+			<div class="tech-item">Webpack</div>
+			<div class="tech-item">Vite</div>
+			<div class="tech-item">Jest</div>
+			<div class="tech-item">React Testing Library</div>
+			<div class="tech-item">Storybook</div>
+			<div class="tech-item">Docker</div>
+			<div class="tech-item">CI/CD</div>
+			<div class="tech-item">REST API</div>
+			<div class="tech-item">GraphQL</div>
+			<div class="tech-item">WebSocket</div>
+			<div class="tech-item">ESLint</div>
+			<div class="tech-item">Prettier</div>
+			<div class="tech-item">Accessibility</div>
+			<div class="tech-item">Performance</div>
+			<div class="tech-item">Microfrontends</div>
+			<div class="tech-item">Feature-Sliced Design</div>
+		</div>
+	</section>
+
+	<section>
+		<h2>Career</h2>
+
+		<div class="career-item">
+			<div class="career-header">
+				<div>
+					<div class="career-company">SBERBANK</div>
+					<h5>Senior Frontend Developer</h5>
+				</div>
+				<div class="career-date">June 2023 —<br>Present</div>
+			</div>
+			<div class="career-description">
+				<p>Brought 3 frontend solutions to production from scratch (AI chat, informational snippet/ticker, and partner onboarding module): from an empty directory to full production operation under banking security standards.</p>
+				<p>Designed frontend architecture and coordinated API contract collaboration with backend teams, ensuring technical consistency and predictable feature delivery.</p>
+				<p>Contributed to production release processes for frontend products, implemented integrations with internal and external services, and automated key checks, reducing regression risks and manual operations.</p>
+				<p>Implemented asynchronous data processing and staged loading in client applications, improving UI responsiveness under high load and user experience when working with large datasets.</p>
+				<p>Owned frontend implementation of an AI support chat: built the UI, integrated APIs, and ensured stable client-side behavior in close collaboration with backend, analytics, and support; reduced average response time from 4 hours to 10 minutes.</p>
+				<p>Built an informational ticker for client interfaces with flexible commission and tariff parameter configuration, improving transparency for end users and simplifying maintenance for the product team.</p>
+				<p>Developed a partner onboarding module used by cross-functional teams (security, KAM, and other stakeholders); delivered inter-team integrations and added SAST/OSS checks to every pull request in line with banking security standards.</p>
+			</div>
+		</div>
+
+		<div class="career-item">
+			<div class="career-header">
+				<div>
+					<div class="career-company">Sitesoft</div>
+					<h5>Frontend Developer</h5>
+				</div>
+				<div class="career-date">August 2021 —<br>May 2023</div>
+			</div>
+			<div class="career-description">
+				<p>Owned support and modernization of 30+ projects of varying complexity for major clients, ensuring release stability and evolutionary frontend development.</p>
+				<p>Designed and implemented a reusable component and template system, reducing time-to-launch for new projects by 40%.</p>
+				<p>Built internal component and utility libraries, standardized frontend development approaches, and improved solution reusability across the team.</p>
+				<p>Performed systematic legacy refactoring and reduced technical debt, improving client-side performance and simplifying further project evolution.</p>
+				<p>Organized project internationalization by introducing a unified localization approach for UI and content, which simplified scaling to new languages and reduced release-time errors.</p>
+			</div>
+		</div>
+
+		<div class="career-item">
+			<div class="career-header">
+				<div>
+					<div class="career-company">UNIT6</div>
+					<h5>Junior Frontend Developer</h5>
+				</div>
+				<div class="career-date">July 2020 —<br>August 2021</div>
+			</div>
+			<div class="career-description">
+				<p>Developed user dashboards with data management and user settings capabilities, improving everyday user workflows within the service.</p>
+				<p>Built promotional websites and landing pages with animations and interactive elements, increasing user engagement and visual communication quality.</p>
+			</div>
+		</div>
+
+		<div class="career-item">
+			<div class="career-header">
+				<div>
+					<div class="career-company">Freelance</div>
+					<h5>Frontend Developer</h5>
+				</div>
+				<div class="career-date">July 2019 —<br>July 2020</div>
+			</div>
+			<div class="career-description">
+				<p>Built an information portal for an educational institution with a content management system, enabling convenient content publishing and updates for editors.</p>
+				<p>Developed responsive landing pages and e-commerce websites with payment integrations, ensuring reliable user flows across devices.</p>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<h2>Speaking Engagements</h2>
+
+		<div class="performance-item">
+			<h4>UWDC 2025</h4>
+			<h5>Animation to the Fingertips</h5>
+			<p><strong>Date:</strong> May 24, 2025</p>
+		</div>
+
+		<div class="performance-item">
+			<h4>Frontend Mix: Frontend Development Meetup</h4>
+			<h5>Animation to the Fingertips</h5>
+			<p><strong>Date:</strong> April 24, 2025</p>
+		</div>
+
+		<div class="performance-item">
+			<h4>IT Talk by Sber</h4>
+			<h5>Proper Animation and Good CSS</h5>
+			<p><strong>Date:</strong> March 21, 2024</p>
+		</div>
+	</section>
+
+</body>
+</html>

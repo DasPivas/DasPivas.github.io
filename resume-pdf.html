@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Резюме - Михаил Прядун</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+			color: #000;
+			line-height: 1.6;
+			padding: 40px;
+			max-width: 900px;
+			margin: 0 auto;
+			background: #fff;
+		}
+
+		@media print {
+			body {
+				padding: 20px;
+			}
+			.page-break {
+				page-break-after: always;
+			}
+		}
+
+		h1 {
+			font-size: 36px;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+
+		h2 {
+			font-size: 24px;
+			margin-top: 30px;
+			margin-bottom: 15px;
+			padding-bottom: 10px;
+			border-bottom: 2px solid #333;
+			font-weight: bold;
+		}
+
+		h3 {
+			font-size: 20px;
+			margin-top: 20px;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+
+		h4 {
+			font-size: 18px;
+			margin-top: 15px;
+			margin-bottom: 8px;
+			font-weight: bold;
+		}
+
+		h5 {
+			font-size: 16px;
+			margin-top: 10px;
+			margin-bottom: 5px;
+			font-weight: 600;
+			color: #555;
+		}
+
+		p {
+			margin-bottom: 10px;
+			text-align: justify;
+		}
+
+		.header {
+			text-align: center;
+			margin-bottom: 40px;
+		}
+
+		.header p {
+			font-size: 18px;
+			color: #666;
+			margin-top: 5px;
+		}
+
+		.contact-info {
+			text-align: center;
+			margin-bottom: 30px;
+			padding: 15px;
+			background: #f5f5f5;
+			border-radius: 5px;
+		}
+
+		.contact-info p {
+			margin: 5px 0;
+		}
+
+		.about-section p {
+			margin-bottom: 15px;
+		}
+
+		.tech-stack {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 10px;
+			margin-top: 10px;
+		}
+
+		.tech-item {
+			background: #f0f0f0;
+			padding: 8px 15px;
+			border-radius: 5px;
+			font-size: 14px;
+		}
+
+		.career-item {
+			margin-bottom: 30px;
+			padding: 20px;
+			background: #fafafa;
+			border-left: 4px solid #333;
+			border-radius: 5px;
+		}
+
+		.career-header {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+			margin-bottom: 15px;
+		}
+
+		.career-company {
+			font-size: 20px;
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+
+		.career-date {
+			font-size: 14px;
+			color: #666;
+			text-align: right;
+			white-space: pre-line;
+		}
+
+		.career-description {
+			margin-top: 10px;
+		}
+
+		.career-description p {
+			margin-bottom: 8px;
+			padding-left: 15px;
+			position: relative;
+		}
+
+		.career-description p:before {
+			content: "•";
+			position: absolute;
+			left: 0;
+			font-weight: bold;
+		}
+
+		.performance-item {
+			margin-bottom: 20px;
+			padding: 15px;
+			background: #f9f9f9;
+			border-radius: 5px;
+		}
+
+		.performance-item h4 {
+			margin-top: 0;
+		}
+
+		.project-item {
+			margin-bottom: 20px;
+			padding: 15px;
+			background: #f9f9f9;
+			border-radius: 5px;
+		}
+
+		.project-item h4 {
+			margin-top: 0;
+		}
+
+		.project-links {
+			margin-top: 10px;
+		}
+
+		.project-links a {
+			color: #0066cc;
+			text-decoration: none;
+			margin-right: 15px;
+		}
+
+		.project-links a:hover {
+			text-decoration: underline;
+		}
+
+		.hobbies {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 15px;
+			margin-top: 10px;
+		}
+
+		.hobby-item {
+			background: #f0f0f0;
+			padding: 10px 15px;
+			border-radius: 5px;
+			font-size: 14px;
+		}
+
+		@page {
+			margin: 2cm;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1>Михаил Прядун</h1>
+		<p>Senior Frontend Developer</p>
+	</div>
+
+	<div class="contact-info">
+		<p><strong>Telegram:</strong> @pryadun69</p>
+		<p><strong>GitHub:</strong> https://github.com/DasPivas</p>
+		<p><strong>Сайт-резюме:</strong> https://daspivas.github.io</p>
+		<p><strong>Email:</strong> misha.pma12@yandex.ru</p>
+	</div>
+
+	<section class="about-section">
+		<h2>О себе</h2>
+		<p>Более 5 лет занимаюсь разработкой интерфейсов разной сложности и предназначения. Специализируюсь на frontend-разработке для высоконагруженных продуктов: проектирую архитектуру, довожу решения от идеи до продакшена и отвечаю за стабильную поставку изменений. Основной стек — JavaScript/TypeScript, React и экосистема современных инструментов frontend-разработки.</p>
+		<p>Имею опыт промышленной разработки в финтехе по банковским стандартам безопасности и качества. Фокусируюсь на производительности, надежности клиентских приложений и предсказуемости релизов: от API-контрактов и интеграций до автоматизированных проверок в процессе разработки.</p>
+		<p>Сильные стороны: ownership, системное мышление и кросс-командное взаимодействие. Провожу code review, менторю коллег, участвую в архитектурных решениях и развиваю инженерные практики команды. Выступаю на профессиональных конференциях и делюсь опытом с сообществом разработчиков.</p>
+	</section>
+
+	<section>
+		<h2>Технологический стек</h2>
+		<div class="tech-stack">
+			<div class="tech-item">JavaScript</div>
+			<div class="tech-item">TypeScript</div>
+			<div class="tech-item">React</div>
+			<div class="tech-item">Redux</div>
+			<div class="tech-item">Next.js</div>
+			<div class="tech-item">Vue</div>
+			<div class="tech-item">Nuxt</div>
+			<div class="tech-item">HTML5</div>
+			<div class="tech-item">CSS3</div>
+			<div class="tech-item">SCSS/SASS</div>
+			<div class="tech-item">Node.js</div>
+			<div class="tech-item">Git</div>
+			<div class="tech-item">Webpack</div>
+			<div class="tech-item">Vite</div>
+			<div class="tech-item">Jest</div>
+			<div class="tech-item">React Testing Library</div>
+			<div class="tech-item">Storybook</div>
+			<div class="tech-item">Docker</div>
+			<div class="tech-item">CI/CD</div>
+			<div class="tech-item">REST API</div>
+			<div class="tech-item">GraphQL</div>
+			<div class="tech-item">WebSocket</div>
+			<div class="tech-item">ESLint</div>
+			<div class="tech-item">Prettier</div>
+			<div class="tech-item">Accessibility</div>
+			<div class="tech-item">Performance</div>
+			<div class="tech-item">Microfrontends</div>
+			<div class="tech-item">Feature-Sliced Design</div>
+		</div>
+	</section>
+
+	<section>
+		<h2>Карьера</h2>
+
+		<div class="career-item">
+			<div class="career-header">
+				<div>
+					<div class="career-company">СБЕРБАНК</div>
+					<h5>Старший фронтенд-разработчик</h5>
+				</div>
+				<div class="career-date">Июнь 2023 —<br>настоящее время</div>
+			</div>
+			<div class="career-description">
+				<p>Вывел в продакшен 3 frontend-решения с нуля (AI-чат, информационный сниппет/тикер и модуль подключения партнеров): от пустой директории до промышленной эксплуатации по банковским стандартам безопасности.</p>
+				<p>Проектировал архитектуру frontend-решений и координировал взаимодействие с backend-командой по API-контрактам, обеспечивая техническую целостность решений и предсказуемую поставку функциональности.</p>
+				<p>Участвовал в выстраивании процесса релизов frontend-продуктов в продакшен, реализовал интеграции с внутренними и внешними сервисами и автоматизировал ключевые проверки, что снизило риски регрессий и объем ручных операций.</p>
+				<p>Реализовал асинхронную обработку и поэтапную загрузку данных в клиентских приложениях, что повысило отзывчивость интерфейсов под высокой нагрузкой и улучшило пользовательский опыт при работе с большими объемами данных.</p>
+				<p>Отвечал за frontend-реализацию AI-чата: разработал UI, интегрировал API и обеспечил стабильную работу клиентской части в тесной связке с backend, аналитикой и поддержкой; в результате среднее время ответа сократилось с 4 часов до 10 минут.</p>
+				<p>Разработал информационный тикер для клиентских интерфейсов с гибкой конфигурацией комиссий и тарифных параметров, что повысило прозрачность условий для пользователей и упростило сопровождение изменений продуктовой командой.</p>
+				<p>Разработал модуль подключения новых партнеров, который использовали смежные команды (безопасность, КАМ и другие сотрудники); обеспечил межкомандные интеграции и внедрил SAST/OSS-проверки в каждый pull request в соответствии со стандартами безопасности банка.</p>
+			</div>
+		</div>
+
+		<div class="career-item">
+			<div class="career-header">
+				<div>
+					<div class="career-company">Сайтсофт</div>
+					<h5>Фронтенд-разработчик</h5>
+				</div>
+				<div class="career-date">Август 2021 —<br>Май 2023</div>
+			</div>
+			<div class="career-description">
+				<p>Отвечал за поддержку и модернизацию более 30 проектов различной сложности для крупных клиентов, обеспечивая стабильность релизов и эволюционное развитие frontend-части.</p>
+				<p>Спроектировал и внедрил систему переиспользуемых компонентов и шаблонов, что сократило время запуска новых проектов на 40%.</p>
+				<p>Разработал внутренние библиотеки компонентов и утилит, стандартизировал подходы к frontend-разработке и повысил переиспользуемость решений в команде.</p>
+				<p>Проводил системный рефакторинг legacy-кода и сокращал технический долг, повышая производительность клиентской части и упрощая дальнейшее развитие проектов.</p>
+				<p>Организовал процесс интернационализации проектов: внедрил единый подход к локализации интерфейсов и контента, что упростило масштабирование на новые языки и снизило количество ошибок при релизах.</p>
+			</div>
+		</div>
+
+		<div class="career-item">
+			<div class="career-header">
+				<div>
+					<div class="career-company">UNIT6</div>
+					<h5>Младший фронтенд-разработчик</h5>
+				</div>
+				<div class="career-date">Июль 2020 —<br>Август 2021</div>
+			</div>
+			<div class="career-description">
+				<p>Разрабатывал личные кабинеты с функционалом управления данными и настройками пользователя, улучшая удобство повседневной работы пользователей с сервисом.</p>
+				<p>Создавал промо-сайты и лендинги с анимациями и интерактивными элементами, повышая вовлеченность пользователей и качество визуальной коммуникации продукта.</p>
+			</div>
+		</div>
+
+		<div class="career-item">
+			<div class="career-header">
+				<div>
+					<div class="career-company">Фриланс</div>
+					<h5>Фронтенд-разработчик</h5>
+				</div>
+				<div class="career-date">Июль 2019 —<br>Июль 2020</div>
+			</div>
+			<div class="career-description">
+				<p>Разработал информационный портал для образовательного учреждения с системой управления контентом, что обеспечило удобную публикацию и обновление материалов редакторами.</p>
+				<p>Создавал адаптивные лендинги и интернет-магазины с интеграцией платежных систем, обеспечивая корректную работу пользовательских сценариев на разных устройствах.</p>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<h2>Выступления</h2>
+
+		<div class="performance-item">
+			<h4>UWDC 2025</h4>
+			<h5>Анимация до кончиков пальцев</h5>
+			<p><strong>Дата:</strong> 24.05.2025</p>
+		</div>
+
+		<div class="performance-item">
+			<h4>Frontend Mix: митап про фронтенд-разработку</h4>
+			<h5>Анимация до кончиков пальцев</h5>
+			<p><strong>Дата:</strong> 24.04.2025</p>
+		</div>
+
+		<div class="performance-item">
+			<h4>IT Talk by Sber</h4>
+			<h5>Правильная анимация и хороший CSS</h5>
+			<p><strong>Дата:</strong> 21.03.2024</p>
+		</div>
+	</section>
+
+</body>
+</html>

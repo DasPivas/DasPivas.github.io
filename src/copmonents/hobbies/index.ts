@@ -1,1 +1,0 @@
-export { Hobbies } from './hobbies'

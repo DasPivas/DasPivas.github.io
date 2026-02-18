@@ -12,7 +12,12 @@ export const Greeting: FC = () => {
 					Меня зовут:
 				</p>
 				<h1 className={styles.greeting__title}>
-					<a href="/" className="link">
+					<a
+						href={`https://t.me/@pryadun69`}
+						className="link"
+						target="_blank"
+						rel="noreferrer"
+					>
 						Михаил Прядун
 					</a>
 				</h1>
